@@ -16,7 +16,7 @@ type ToDo struct {
 }
 
 func main() {
-	fmt.Println("Hello WorldsXX")
+	fmt.Println("Running the server")
 	app := fiber.New()
 
 	err := godotenv.Load(".env")
